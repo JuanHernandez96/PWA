@@ -2,13 +2,11 @@ const APP_PREFIX = 'Budget-Tracker-';
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
-
 const FILES_TO_CACHE = [
     "./js/idb.js",
     "./js/index.js",
     "./css/styles.css",
     "./index.html",
-    "../models/transaction.js"
 ]
 
 self.addEventListener('fetch', function (e) {
